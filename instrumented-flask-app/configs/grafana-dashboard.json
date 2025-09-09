@@ -946,12 +946,8 @@
           ],
           "title": "Cache Hit Rate Percentage",
           "type": "gauge"
-        }
-      ],
-      "title": "Cache",
-      "type": "row"
-    },
-      {
+        },
+        {
         "datasource": {
           "type": "prometheus",
           "uid": "prometheus"
@@ -1020,6 +1016,11 @@
         "title": "Cache Miss Rate Percentage",
         "type": "gauge"
       }
+      ],
+      "title": "Cache",
+      "type": "row"
+    }
+      
   ],
   "preload": false,
   "refresh": "5s",
